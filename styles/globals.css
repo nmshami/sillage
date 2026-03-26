@@ -1,0 +1,18 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  background: #0B0A09;
+  color: #E8DFD0;
+  font-family: 'DM Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input, button, select, textarea { font-family: inherit; }
+input:focus, textarea:focus, select:focus { outline: none; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; }
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #0B0A09; }
+::-webkit-scrollbar-thumb { background: #3D3830; border-radius: 2px; }
+select option { background: #201E1A; color: #E8DFD0; }
+input::placeholder, textarea::placeholder { color: #3D3830; }
